@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE04960925BF9D56000CD980 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04960825BF9D56000CD980 /* HomeViewController.swift */; };
 		DE4D235B25AE135300E44260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235A25AE135300E44260 /* AppDelegate.swift */; };
 		DE4D235D25AE135300E44260 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235C25AE135300E44260 /* SceneDelegate.swift */; };
 		DE4D236225AE135300E44260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236025AE135300E44260 /* Main.storyboard */; };
 		DE4D236425AE135500E44260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236325AE135500E44260 /* Assets.xcassets */; };
 		DE4D236725AE135500E44260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D236525AE135500E44260 /* LaunchScreen.storyboard */; };
 		DEC76B6A25B752FC00DAA461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D235E25AE135300E44260 /* ViewController.swift */; };
+		DEC76B7925B898EC00DAA461 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */; };
+		DEC76B8F25B909B200DAA461 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B8E25B909B200DAA461 /* Api.swift */; };
+		DEC76B9325B90A1500DAA461 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B9225B90A1500DAA461 /* Extensions.swift */; };
+		DEC76B9425B90A1500DAA461 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76B9125B90A1500DAA461 /* classes.swift */; };
 		F4C423AD883C2ABC959993A7 /* libPods-CryptoVault_189E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B690D6AACB373878044D0F1 /* libPods-CryptoVault_189E.a */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +25,7 @@
 		5B690D6AACB373878044D0F1 /* libPods-CryptoVault_189E.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoVault_189E.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827430FBCD872B9588C0550D /* Pods-CryptoVault_189E.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoVault_189E.debug.xcconfig"; path = "Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E1ABAA74342CF347B82995 /* Pods-CryptoVault_189E.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoVault_189E.release.xcconfig"; path = "Target Support Files/Pods-CryptoVault_189E/Pods-CryptoVault_189E.release.xcconfig"; sourceTree = "<group>"; };
+		DE04960825BF9D56000CD980 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DE4D235725AE135300E44260 /* CryptoVault_189E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoVault_189E.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D235A25AE135300E44260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4D235C25AE135300E44260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		DE4D236325AE135500E44260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4D236625AE135500E44260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4D236825AE135500E44260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		DEC76B8E25B909B200DAA461 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Api.swift; path = ../Api.swift; sourceTree = "<group>"; };
+		DEC76B9125B90A1500DAA461 /* classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classes.swift; path = "/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/classes.swift"; sourceTree = "<absolute>"; };
+		DEC76B9225B90A1500DAA461 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "/Users/utkarshopalkar/Desktop/TA iOS - ECS 189E/HW2/HW2_solution_utkarsh/CryptoVault_189E/CryptoVault_189E/Extensions.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +73,18 @@
 		DE4D235925AE135300E44260 /* CryptoVault_189E */ = {
 			isa = PBXGroup;
 			children = (
+				DEC76B9125B90A1500DAA461 /* classes.swift */,
+				DEC76B9225B90A1500DAA461 /* Extensions.swift */,
+				DEC76B8E25B909B200DAA461 /* Api.swift */,
 				DE4D235A25AE135300E44260 /* AppDelegate.swift */,
 				DE4D235C25AE135300E44260 /* SceneDelegate.swift */,
 				DE4D235E25AE135300E44260 /* ViewController.swift */,
 				DE4D236025AE135300E44260 /* Main.storyboard */,
+				DE04960825BF9D56000CD980 /* HomeViewController.swift */,
 				DE4D236325AE135500E44260 /* Assets.xcassets */,
 				DE4D236525AE135500E44260 /* LaunchScreen.storyboard */,
 				DE4D236825AE135500E44260 /* Info.plist */,
+				DEC76B7825B898EC00DAA461 /* VerifyOTPViewController.swift */,
 			);
 			path = CryptoVault_189E;
 			sourceTree = "<group>";
@@ -205,9 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC76B9425B90A1500DAA461 /* classes.swift in Sources */,
 				DEC76B6A25B752FC00DAA461 /* ViewController.swift in Sources */,
+				DEC76B9325B90A1500DAA461 /* Extensions.swift in Sources */,
+				DE04960925BF9D56000CD980 /* HomeViewController.swift in Sources */,
 				DE4D235B25AE135300E44260 /* AppDelegate.swift in Sources */,
 				DE4D235D25AE135300E44260 /* SceneDelegate.swift in Sources */,
+				DEC76B8F25B909B200DAA461 /* Api.swift in Sources */,
+				DEC76B7925B898EC00DAA461 /* VerifyOTPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
